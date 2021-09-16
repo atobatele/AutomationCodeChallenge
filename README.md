@@ -14,11 +14,13 @@ Create a branch and name it with your "{firstname_lastname}_FINEOS_challenge".
 *Once complete push your branch up.*
 
 ---
-Feature: Automate
-     As an Engr. Candidate
-     I need to automate http://www.way2automation.com/angularjs-protractor/webtables/
-     So I can show my automation capabilities
+Feature: Automate 
+          As an Engr. Candidate I need to automate https://www.way2automation.com/angularjs-protractor/banking/#/login/
+     
+Scenario: As bank manager ,Add a customer and validate the customer has been added to the table under customer tab
 
-Scenario: Add a user and validate the user has been added to the table
+Scenario: As bank manager ,Delete customer Name: Ron and validate customer has been deleted”
 
-Scenario: Delete user User Name: novak and validate user has been deleted
+Scenario: As a Customer, make a deposit and confirm my balance is correct
+
+Scenario: As a Customer, ensure I cannot withdraw more from my account than is in my balance
