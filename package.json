@@ -1,0 +1,32 @@
+{
+  "name": "automationcodechallenge",
+  "version": "1.0.0",
+  "description": "Instructions:",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor tmp/protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atobatele/AutomationCodeChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atobatele/AutomationCodeChallenge/issues"
+  },
+  "homepage": "https://github.com/atobatele/AutomationCodeChallenge#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "@types/node": "^16.9.2",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "cucumber-html-reporter": "^5.5.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^8.2.5",
+    "rimraf": "^3.0.2"
+  }
+}
